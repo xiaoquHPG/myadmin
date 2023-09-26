@@ -1,0 +1,4 @@
+/myadmin/
+*.xml
+target
+.idea/libraries/*.xml
