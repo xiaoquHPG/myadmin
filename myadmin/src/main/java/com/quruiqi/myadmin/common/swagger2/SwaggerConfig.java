@@ -22,7 +22,7 @@ import java.util.ArrayList;
  **/
 @Configuration
 @EnableSwagger2
-@ComponentScan(basePackages = {"com.quruiqi.myadmin.core.rest","com.quruiqi.myadmin.system.rest","com.quruiqi.myadmin.system.monitor"})
+@ComponentScan(basePackages = {"com.quruiqi.myadmin.core.rest","com.quruiqi.myadmin.system.rest","com.quruiqi.myadmin.monitor.rest"})
 public class SwaggerConfig {
 
     @Bean
