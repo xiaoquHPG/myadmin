@@ -8,5 +8,12 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
  * @Author Lenovo
  * @Date 2023/9/28 11:00
  **/
-public interface RoleRepository extends JpaRepository<Role, Long>, JpaSpecificationExecutor<Role> {
+public interface RoleRepository extends JpaRepository<Role, Long>, JpaSpecificationExecutor {
+
+    /**
+     * findByName
+     * @param name
+     * @return
+     */
+    Role findByName(String name);
 }

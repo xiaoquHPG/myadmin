@@ -16,7 +16,8 @@ public class EncryptUtils {
      * @return
      */
     public static String encryptPassword(String password) {
-        return DigestUtils.md5DigestAsHex(password.getBytes(StandardCharsets.UTF_8));
+        String s = DigestUtils.md5DigestAsHex(password.getBytes(StandardCharsets.UTF_8));
+        return s;
     }
 
 }

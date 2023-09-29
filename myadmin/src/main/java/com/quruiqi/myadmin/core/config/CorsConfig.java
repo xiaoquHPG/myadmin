@@ -26,6 +26,6 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**")
-                .addResourceLocations("classpath:/resources/").setCachePeriod(0);
+                .addResourceLocations("classpath:/META-INF/resources/").setCachePeriod(0);
     }
 }
